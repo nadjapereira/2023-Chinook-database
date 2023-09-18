@@ -4,7 +4,6 @@ This database is peculiar because contains various types of data such as music p
 The database Schema: 
 ![image](https://github.com/nadjapereira/2023-Chinook-database/assets/11997614/53dccb19-e14b-418d-8d39-662286b35742)
 
-
 ### 10 questions about the database: 
 ### 1. Create a consult showing the clients (complete names, client's ID and country) outside the USA.
 > SELECT CustomerID, FirstName, LastName,  Country
@@ -46,7 +45,7 @@ FROM Invoice_Items AS IT
 INNER JOIN Tracks AS T ON IT.TrackID = T.TrackID
 INNER JOIN Invoices AS I ON IT.InvoiceID = I.InvoiceID
 
-## 6. Perform a consult with the number of invoices by country
+### 6. Perform a consult with the number of invoices by country
 > SELECT
 C.Country AS Country,
 COUNT(I.InvoiceID) AS NumeroDeFaturas
