@@ -88,7 +88,6 @@ INNER JOIN Invoices AS I ON C.CustomerID = I.CustomerID
 GROUP BY Pais
 ORDER BY TotalGasto DESC
 LIMIT 1
-![image](https://github.com/nadjapereira/2023-Chinook-database/assets/11997614/c15f8159-a18d-4637-a1c7-d6aea5ce2cbd)
 
 ### 10. Show the top 3 artists that sold the most
 > SELECT
@@ -102,11 +101,3 @@ INNER JOIN Invoices AS I ON II.InvoiceID = I.InvoiceID
 GROUP BY NomeDoArtista
 ORDER BY TotalVendido DESC
 LIMIT 3
-![image](https://github.com/nadjapereira/2023-Chinook-database/assets/11997614/66fb86c4-9ffa-4dbc-ba71-62082435c23e)
-
-
-
-
-
-
-
